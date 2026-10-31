@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "benq-ew270q-controls",
+  "name": "BenQ EW270Q Controls",
+  "version": "1.0.0",
+  "author": "Avinash Kumar",
+  "description": "Brightness, volume, and color preset controls for the BenQ EW270Q",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "BenQ EW270Q",
+    "description": "Control the EW270Q monitor using DDC/CI",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
