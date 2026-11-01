@@ -21,8 +21,12 @@ The widget uses VCP features 10 (brightness), 62 (speaker volume), and 14
 Install `ddcutil` using your distribution's package manager, then run:
 
 ```bash
-omarchy plugin add https://github.com/avi-nash-kr/benq-ew270q-controls --enable
+./install.sh
 ```
+
+The script checks for Omarchy and `ddcutil`, then uses Omarchy's plugin
+installer. To uninstall the plugin and remove its bar entry, run `./uninstall.sh`.
+Your existing bar configuration is backed up before the entry is removed.
 
 The plugin is placed in the right section of the bar by default. If the
 EW270Q is not DDC display 1 on your system, set the plugin's `display` value
